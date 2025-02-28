@@ -1,0 +1,77 @@
+@media (max-width:480px){
+    .ancho{
+        display: flex; 
+        flex-direction: column; 
+        align-items: center; 
+        gap: 15px;
+    }
+    .contimg{
+        padding: 25px;
+    }
+    .contimg figure{
+        max-width: 125px;
+    }
+    .contmenu ul{
+        flex-direction: column;
+        align-items: center;
+        list-style: none;
+    }
+    .contmenu ul li{
+        width: 100%;
+        text-align: left;
+        padding: 10px;
+    }
+    .contmenu ul li a{
+        display: block;
+        width: 100%;
+        padding: 10px;
+        border-bottom: var(--gris)5px solid;
+        border-right: none;
+    }
+    .contmenu ul li a:hover{
+        background-color: var(--negro);
+        color: white;
+    }
+    .promo{
+        height: 250px;
+        background-size:cover;
+    }
+    .promo p{
+        font-size: 42px;
+        padding: 10px 10px;
+        margin-top:69%;
+        margin-bottom: none;
+    }
+    .msg{
+        font-size: 12px;
+    }
+    .imgs{
+        display: flex;
+        flex-direction: column;
+        max-width: 100%;
+        padding: 10px;
+        align-items: center;
+
+    }
+    .imgs figure img{
+        max-width: 200px;
+        max-height: 200px;
+    }
+    .btngris{
+        width: 100px;
+        padding: 10px;
+        text-align: center;
+    }
+    .logfin{
+        flex-direction: column; 
+        text-align: center;
+        padding: 15px;
+    }
+    .logfin figure{
+        max-width: 160px;
+    }
+    .redes a{
+        font-size: 15px;
+        padding: 5px 10px;
+    }
+}
